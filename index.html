@@ -26,6 +26,12 @@
 
                 })
             })
+            
+            $(document).ready(function(){
+                $("#slide").hover(function(){
+                    $("#panel").slideDown("slow");
+             });
+            });
 
 
         </script>
@@ -41,6 +47,13 @@
         
         <br /><br />
         <div class="box"><p>click or hover</p></div>
+        <br /><br />
+        
+         
+<div id="slide">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+        
+        
     </body>
 
 </html>
